@@ -151,6 +151,18 @@ npx playwright show-report
 
 ---
 
+## 🎥 E2E Web Execution Recording
+
+Below is the video recording showcasing the full automated Playwright web test execution and generated Test Report:
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/5cfe0eef-8980-45b6-ba32-24688afb057c" width="700" controls>
+    Your browser does not support the video tag. You can view the file directly: <a href="https://github.com/user-attachments/assets/5cfe0eef-8980-45b6-ba32-24688afb057c">Playwright Test Execution Recording</a>
+  </video>
+</div>
+
+---
+
 ## 📖 Test Coverage Matrix
 
 The core suite ([saucedemo-core-scenarios.spec.ts](file:///c:/Helmy/Automation/Playwright-Demo/tests/saucedemo-core-scenarios.spec.ts)) covers critical user journeys:
