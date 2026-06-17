@@ -23,6 +23,9 @@ This ensures tests remain green even when CSS styles, layouts, or wording change
 ### 3. Config-Driven & Environmental Decoupling
 Test credentials, user information, and checkout data are entirely decoupled from the test codebase. They are injected at runtime using environment variables managed via `dotenv`.
 
+### 4. Agentic QA Planning & Orchestration (Playwright Agents)
+The framework leverages agentic AI workflows—specifically **Playwright Agents**—to enhance overall project planning and directory structure. These agents analyze test requirements, optimize element selector strategies, automate boilerplate POM creations, and help maintain high-quality structural alignment across the test suite.
+
 ---
 
 ## 📂 Project Directory Structure
