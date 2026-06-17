@@ -5,7 +5,17 @@ An enterprise-grade, highly scalable end-to-end automation framework built using
 This framework was architected by a Senior Test Automation Engineer with a strong emphasis on **scalability**, **maintainability**, **resilience**, and **observability**.
 
 ---
+## 🎥 E2E Web Execution Recording
 
+Below is the video recording showcasing the full automated Playwright web test execution and generated Test Report:
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/5cfe0eef-8980-45b6-ba32-24688afb057c" width="700" controls>
+    Your browser does not support the video tag. You can view the file directly: <a href="https://github.com/user-attachments/assets/5cfe0eef-8980-45b6-ba32-24688afb057c">Playwright Test Execution Recording</a>
+  </video>
+</div>
+
+---
 ## 🏗️ Architectural Blueprint
 
 The framework implements industry-standard automation patterns designed to minimize maintenance overhead and eliminate flaky tests:
@@ -151,17 +161,6 @@ npx playwright show-report
 
 ---
 
-## 🎥 E2E Web Execution Recording
-
-Below is the video recording showcasing the full automated Playwright web test execution and generated Test Report:
-
-<div align="center">
-  <video src="https://github.com/user-attachments/assets/5cfe0eef-8980-45b6-ba32-24688afb057c" width="700" controls>
-    Your browser does not support the video tag. You can view the file directly: <a href="https://github.com/user-attachments/assets/5cfe0eef-8980-45b6-ba32-24688afb057c">Playwright Test Execution Recording</a>
-  </video>
-</div>
-
----
 
 ## 📖 Test Coverage Matrix
 
