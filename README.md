@@ -24,7 +24,13 @@ This ensures tests remain green even when CSS styles, layouts, or wording change
 Test credentials, user information, and checkout data are entirely decoupled from the test codebase. They are injected at runtime using environment variables managed via `dotenv`.
 
 ### 4. Agentic QA Planning & Orchestration (Playwright Agents)
-The framework leverages agentic AI workflows—specifically **Playwright Agents**—to enhance overall project planning and directory structure. These agents analyze test requirements, optimize element selector strategies, automate boilerplate POM creations, and help maintain high-quality structural alignment across the test suite.
+The framework leverages a multi-agent AI workflow—collectively referred to as **Playwright Agents**—to enhance overall project planning, maintenance, and structural alignment. By dividing responsibilities among specialized agent roles, we ensure high quality, speed, and standard compliance across the test suite:
+
+- **🏗️ Architect Agent**: Plans the overall framework hierarchy, configures initial dependencies (such as Playwright, TypeScript, and dotenv), enforces folder structures (e.g., separating `/pages` and `/tests`), and maintains project scalability.
+- **🔍 DOM & Selector Analyzer Agent**: Dynamically scans application pages, identifies the most resilient locator strategies (prioritizing custom `data-test-*` and ARIA attributes), and filters out flaky XPath or deep CSS selectors.
+- **📝 Spec Writer Agent**: Translates raw user requirements and manual test specifications (stored in `/specs`) into executable, clean, and async-await driven Playwright E2E test files.
+- **🤖 POM Builder Agent**: Automatically generates modular Page Object classes, maps elements to locator variables, and scaffolds user action methods with proper return types to support fluent API method chaining.
+- **🩺 Diagnostic & CI Agent**: Automatically analyzes test run failures, parsing HTML reports and trace viewer logs (`.zip` traces) to isolate root causes (e.g., network delays, elements blocked, or incorrect assertions) and suggest auto-healing fixes.
 
 ---
 
